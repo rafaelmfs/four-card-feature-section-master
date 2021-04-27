@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+main{
+    width: 95%;
+    height: 95%;
+    max-width: 1440px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 3%;
+
+    padding: 15px;
+    box-sizing: border-box;
+
+    background: hsl(0, 0%, 98%);
+    box-shadow: rgba(0, 0, 0, 0.233) 0 2px 20px -3px;
+}
+
+pre {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+
+    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+.titulo{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.titulo h1{
+    margin: 0;
+}
+
+.font-titulo{
+    color: hsl(234, 12%, 34%);
+}
+
+.cartoes{
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    grid-template-rows: 110px 110px 110px 110px 110px;
+    grid-gap: 10px;
+
+    justify-content: center;
+
+    margin-left: 7%;
+    margin-right: 5%;
+    
+    
+}
+
+.cartoes :nth-child(1){
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    
+    
+
+
+}
+
+.cartoes :nth-child(2){
+    grid-column-start: 2;   
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+
+}
+
+.cartoes :nth-child(3){
+    grid-column-start: 2;    
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+
+}
+
+.cartoes :nth-child(4){
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+
+.cartoes section{
+    width: 300px;
+    height: 220px;
+
+    padding: 20px;
+
+    border-radius: 6px;
+
+    box-shadow: rgba(0, 0, 0, 0.233) 0 7px 10px -3px;
+
+    box-sizing: border-box;
+
+}
+
+.cartoes section:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.466) 0 1px 10px -3px;
+
+}
+
+.cartoes section p {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.cartoes section h3{
+    margin: 0;
+}
+
+.cartoes section img{
+    float: right;
+    margin-top: 20px; 
+    margin-right: 10px;
+
+    width: 50px;
+}
+
+footer{
+    margin:0;
+    margin-top: 5%;
+
+}
+
+@media (min-width: 200px) and (max-width:1000px){
+ 
+    
+    .titulo{
+        font-size: 80%;
+        box-sizing: border-box;
+        padding: 3%;
+    }
+
+    pre {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 14px;
+
+        white-space: normal;
+    
+        margin: 0;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+
+    .cartoes{
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: center;
+        align-items: center;
+
+        margin: auto;
+        
+    }
+
+    
+}
