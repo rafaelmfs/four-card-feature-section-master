@@ -20,7 +20,7 @@ Esta é a minha solução para o [Four card feature section challenge on Fronten
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://rafaelmfs.github.io/four-card-feature-section-master/
 
 ## Meu processo
 
